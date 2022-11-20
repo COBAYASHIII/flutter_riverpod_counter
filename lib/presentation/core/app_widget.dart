@@ -17,7 +17,7 @@ class AppWidget extends StatelessWidget {
           surface: const Color(0xff003909),
         ),
       ),
-      home: HomePage(),
+      home: const HomePage(),
     );
   }
 }

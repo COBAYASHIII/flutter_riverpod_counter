@@ -4,7 +4,7 @@ import 'package:flutter_riverpod_counter/presentation/core/app_widget.dart';
 
 void main() {
   runApp(
-    ProviderScope(
+    const ProviderScope(
       child: AppWidget(),
     ),
   );
